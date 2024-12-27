@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
+    <title>My_Calculator_HEHE</title>
+</head>
+<body>
+    <div class="container">
+        <div class="text-container">
+            <input type="text" readonly class="textbox" id="text" name="display" placeholder="0">
+        </div>
+        <div class="numbers">
+            <button onclick="allclear()" class="AC">AC</button>
+            <button onclick="ce()" class="CE">CE</button>
+            <button onclick="c()" class="C">C</button>
+            <button onclick="back()" class="back"><i class='bx bx-arrow-back'></i></button>
+            <button onclick="insert(1)" class="one">1</button>
+            <button onclick="insert(2)" class="two">2</button>
+            <button onclick="insert(3)" class="three">3</button>
+            <button onclick="insert('+')" class="plus">+</button>
+            <button onclick="insert(4)" class="four">4</button>
+            <button onclick="insert(5)" class="five">5</button>
+            <button onclick="insert(6)" class="six">6</button>
+            <button onclick="insert('-')" class="minus">-</button>
+            <button onclick="insert(7)" class="seven">7</button>
+            <button onclick="insert(8)" class="eight">8</button>
+            <button onclick="insert(9)" class="nine">9</button>
+            <button onclick="insert('x')" class="multiply">x</button>
+            <button onclick="insert(0)" class="zero">0</button>
+            <button onclick="insert('.')" class="point">.</button>
+            <button onclick="insert('/')" class="divide">/</button>
+            <button onclick="solve()" class="equals">=</button>
+        </div>
+    </div>
+</body>
+</html>
